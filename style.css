@@ -1,0 +1,95 @@
+
+body {
+padding:0;
+    background-color:black;
+    }
+
+section {
+
+    background-color:rgb(160, 55, 55);
+    height: 2000px;
+    
+    }
+
+.nav {
+    text-align: center;
+    background-color:rgb(48, 26, 26);
+    display: flex;
+    justify-content: flex-start;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav a {
+padding: 10px;
+color: white;
+text-decoration: none;
+}
+
+
+.nav div img {
+
+    height: 40px;
+    width: 40px;
+}
+
+.sectiondos{
+
+    height: 100px;
+    background-color: tomato;
+    display:flex ;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.sectiontres{
+
+    height: 100px;
+    background-color: rgb(46, 15, 9);
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.contenedor {
+background-color: rgb(9, 73, 52);
+
+
+justify-content: center;
+display: flex;
+align-items: center;
+
+}
+
+.contenedorfoto img{
+width: 100px;
+height: 100px;
+justify-content: center;
+
+
+
+}
+
+.contenedorfoto{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+
+    
+}
+.cajaadidasfoto h2{
+justify-content: end;
+align-items: end;
+}
+
+.contenedor h2:hover {
+transition: 1s;
+color: black;
+cursor: pointer;
+
+
+
+
+}
